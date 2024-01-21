@@ -23,13 +23,13 @@ let products = [
       <Counter />
       
       {showList && (
-  <ul>
+  <div>
     {products.map((product, index)=>(
     <li key={product.id}>{ product.name }</li>
     
     ))}
   
-  </ul>
+  </div>
   ) 
   }
     </div>
