@@ -9,7 +9,7 @@ const Counter = () => {
     // setCount(count + 1)
     setCount((prev)=>{
       console.log(prev)
-      return count + 1
+      return count +1 
     })
   }
 
